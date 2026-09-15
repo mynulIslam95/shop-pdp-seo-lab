@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "sensor-hoof-boot",
+    "name": "Sensor Hoof Boot",
+    "category": "Protection",
+    "price_eur": 189,
+    "short": "Protective boot with a pressure-map insert for daily work and rehab.",
+    "problem": "A hoof is not a flat surface. Uneven load is hard to see until lameness shows.",
+    "audience": "Riders, vets and farriers who want a clear load picture, not a guess.",
+    "benefits": [
+      "Even protection on mixed ground",
+      "Replaceable sensor insert for load notes",
+      "Fits a structured rehab plan"
+    ],
+    "specs": {
+      "Weight": "1.1 kg per pair",
+      "Sizes": "115–140 mm",
+      "Use": "Arena, light trail, box rest"
+    },
+    "faq": [
+      ["Does this replace a farrier?", "No. It is a support product. A farrier still owns the trim."],
+      ["Is the sensor medical advice?", "No. It is a training aid for notes you already take."]
+    ]
+  },
+  {
+    "slug": "load-map-pad",
+    "name": "Load Map Pad",
+    "category": "Measurement",
+    "price_eur": 79,
+    "short": "Thin pad that records a simple left/right load sketch after each session.",
+    "problem": "Session notes are often only ‘felt a bit off’ with no picture.",
+    "audience": "Trainers who want a repeatable note, not a lab.",
+    "benefits": [
+      "One pad, one session, one sketch",
+      "CSV export for a spreadsheet",
+      "No cloud account required"
+    ],
+    "specs": {
+      "Thickness": "4 mm",
+      "Export": "CSV",
+      "Battery": "USB-C, 8 h"
+    },
+    "faq": [
+      ["Do I need an app store login?", "No. Export is a local CSV file."],
+      ["Works with metal shoes?", "Yes, as a pad under the boot or on a mat."]
+    ]
+  },
+  {
+    "slug": "daily-hoof-kit",
+    "name": "Daily Hoof Kit",
+    "category": "Care",
+    "price_eur": 42,
+    "short": "Pick, brush and moisture balm in one kit for a two-minute stall routine.",
+    "problem": "Care products pile up and the routine dies after a week.",
+    "audience": "Owners who want one kit, one place, every day.",
+    "benefits": [
+      "Fits a grooming box",
+      "Clear morning/evening card",
+      "Refill balm without buying a new kit"
+    ],
+    "specs": {
+      "Contents": "Pick, brush, 120 ml balm",
+      "Routine": "2 minutes",
+      "Refill": "Balm only"
+    },
+    "faq": [
+      ["Is the balm for thrush treatment?", "No. It is daily moisture care, not a medicine."],
+      ["Can I buy refill only?", "Yes. The kit page links the refill."]
+    ]
+  },
+  {
+    "slug": "trim-note-template",
+    "name": "Trim Note Cards",
+    "category": "Workflow",
+    "price_eur": 18,
+    "short": "Waterproof cards so farrier and owner write the same three numbers after a trim.",
+    "problem": "Handover is verbal and gone by next week.",
+    "audience": "Yards that want a shared note, not a new software login.",
+    "benefits": [
+      "Three fields only: angle, length, comment",
+      "Works with a pencil in the aisle",
+      "Photo-friendly for a later log"
+    ],
+    "specs": {
+      "Pack": "50 cards",
+      "Size": "A6",
+      "Material": "Waterproof stock"
+    },
+    "faq": [
+      ["Is this an app?", "No. Paper on purpose. Fast in the barn."],
+      ["Can I print more?", "A PDF refill is on the product page."]
+    ]
+  },
+  {
+    "slug": "arena-study-bundle",
+    "name": "Arena Study Bundle",
+    "category": "Knowledge",
+    "price_eur": 29,
+    "short": "Short brief on hoof load in work, with a one-page checklist for the yard.",
+    "problem": "Research PDFs are long. The yard needs one page.",
+    "audience": "Curious owners who want a clear brief, not a journal club.",
+    "benefits": [
+      "Eight-page brief",
+      "One-page yard checklist",
+      "Written in plain English"
+    ],
+    "specs": {
+      "Format": "PDF + print checklist",
+      "Language": "EN",
+      "Level": "Non-lab"
+    },
+    "faq": [
+      ["Is this veterinary advice?", "No. It is a reading brief and a checklist."],
+      ["Print or digital?", "Both. PDF download plus a printed card."]
+    ]
+  },
+  {
+    "slug": "balm-refill",
+    "name": "Moisture Balm Refill",
+    "category": "Care",
+    "price_eur": 16,
+    "short": "120 ml refill for the Daily Hoof Kit. Same formula, no extra plastic kit.",
+    "problem": "People repurchase a full kit when they only need balm.",
+    "audience": "Kit owners on a refill cycle.",
+    "benefits": [
+      "Lower cost than a new kit",
+      "Same scent and texture",
+      "Less packaging"
+    ],
+    "specs": {
+      "Volume": "120 ml",
+      "Fits": "Daily Hoof Kit",
+      "Use": "After picking"
+    },
+    "faq": [
+      ["Fits the original pot?", "Yes. Same thread."],
+      ["Scent-free option?", "Not in this SKU."]
+    ]
+  }
+]

@@ -1,0 +1,84 @@
+:root {
+  --ink: #1c1916;
+  --muted: #5c564c;
+  --paper: #f7f3ec;
+  --card: #fff;
+  --line: #e4dcd0;
+  --brand: #6b3f1d;
+  --cta: #1e3a5f;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16px/1.45 "Iowan Old Style", Palatino, Georgia, serif;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 8vw;
+  border-bottom: 1px solid var(--line);
+  background: var(--card);
+}
+.logo { font-weight: 700; color: var(--brand); text-decoration: none; letter-spacing: 0.04em; }
+nav a { margin-left: 18px; color: var(--muted); text-decoration: none; }
+main { padding: 28px 8vw 48px; max-width: 1100px; }
+h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 12px; }
+.lead { color: var(--muted); max-width: 62ch; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 22px;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  padding: 16px 16px 14px;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 180px;
+}
+.card.small { min-height: 0; }
+.kicker { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--brand); }
+.price { font-weight: 700; color: var(--cta); }
+.crumbs { color: var(--muted); font-size: 0.92rem; }
+.pdp .hero {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 28px;
+  margin: 12px 0 28px;
+}
+.visual {
+  background: #d9c7b0;
+  min-height: 240px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brand);
+}
+.cta {
+  display: inline-block;
+  background: var(--cta);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 16px;
+  margin-top: 8px;
+}
+.micro { font-size: 0.85rem; color: var(--muted); }
+.specs { border-collapse: collapse; width: 100%; max-width: 520px; }
+.specs th, .specs td { border-bottom: 1px solid var(--line); text-align: left; padding: 7px 8px 7px 0; }
+details { margin: 8px 0; }
+footer { padding: 16px 8vw 28px; color: var(--muted); font-size: 0.9rem; }
+.prose ul { max-width: 70ch; }
+pre { background: #fff; padding: 12px; border: 1px solid var(--line); }
+@media (max-width: 800px) {
+  .pdp .hero { grid-template-columns: 1fr; }
+}

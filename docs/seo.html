@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SEO and conversion notes | HoofLab Shop</title>
+  <meta name="description" content="How the HoofLab catalog implements technical SEO and product-page conversion.">
+  <link rel="canonical" href="https://mynulislam95.github.io/shop-pdp-seo-lab/seo.html">
+  <meta property="og:title" content="SEO and conversion notes | HoofLab Shop">
+  <meta property="og:description" content="How the HoofLab catalog implements technical SEO and product-page conversion.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mynulislam95.github.io/shop-pdp-seo-lab/seo.html">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="index.html">HoofLab Shop</a>
+    <nav>
+      <a href="index.html">Catalog</a>
+      <a href="seo.html">SEO notes</a>
+    </nav>
+  </header>
+  
+  <main class="prose">
+    <h1>What this catalog is for</h1>
+    <p>A shop owner does not start with a new brand colour. They start with the product page: can a rider find it, understand it, and trust the next click.</p>
+    <h2>On-page SEO on every PDP</h2>
+    <ul>
+      <li>Unique title and meta description under typical SERP length</li>
+      <li>Canonical URL, Open Graph, H1 = product name</li>
+      <li>Breadcrumb, FAQ, specs table, internal links to related SKUs</li>
+      <li>Product JSON-LD with price and availability</li>
+    </ul>
+    <h2>Conversion structure</h2>
+    <ul>
+      <li>Problem and audience above the fold</li>
+      <li>One primary CTA, then proof (specs + FAQ)</li>
+      <li>No fake checkout — the CTA is labelled as a demo on purpose</li>
+    </ul>
+    <h2>How to run</h2>
+    <pre>python3 generate_site.py
+python3 check_seo.py
+pytest -q</pre>
+  </main>
+
+  <footer>
+    <p>Portfolio catalog for product-page SEO, UX and conversion. Not a live checkout.</p>
+  </footer>
+</body>
+</html>
