@@ -1,4 +1,4 @@
-# HoofLab Shop — product-page SEO and conversion lab
+# HoofLab Shop: product-page SEO and conversion lab
 
 A small catalog of six hoof-care SKUs. Each product detail page has a problem, a buyer, specs, FAQ, internal links, meta tags and Product JSON-LD.
 

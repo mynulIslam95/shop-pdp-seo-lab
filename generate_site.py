@@ -105,7 +105,7 @@ def render_pdp(p: dict) -> str:
         <p class="problem"><strong>Problem it solves.</strong> {esc(p['problem'])}</p>
         <p class="who"><strong>Who it is for.</strong> {esc(p['audience'])}</p>
         <a class="cta" href="#faq">See fit questions</a>
-        <p class="micro">Demo catalog — no payment. CTA shows conversion placement.</p>
+        <p class="micro">Demo catalog, no payment. CTA shows conversion placement.</p>
       </div>
     </div>
     <h2>Why this page is built this way</h2>
@@ -162,7 +162,7 @@ def render_seo() -> str:
     <ul>
       <li>Problem and audience above the fold</li>
       <li>One primary CTA, then proof (specs + FAQ)</li>
-      <li>No fake checkout — the CTA is labelled as a demo on purpose</li>
+      <li>No fake checkout. The CTA is labelled as a demo on purpose</li>
     </ul>
     <h2>How to run</h2>
     <pre>python3 generate_site.py
